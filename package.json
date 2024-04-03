@@ -2,7 +2,7 @@
   "name": "morford-org-lit",
   "version": "0.1.0",
   "description": "Lit Elements to be used on Morford.org Website",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +15,9 @@
     "Web",
     "Components"
   ],
-  "author": "Alan Dale Morford",
+  "author": { 
+    "name": "Alan Dale Morford"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alanmorford/morford-org-lit/issues"
