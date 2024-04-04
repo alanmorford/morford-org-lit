@@ -2,9 +2,13 @@
   "name": "morford-org-lit",
   "version": "0.1.0",
   "description": "Lit Elements to be used on Morford.org Website",
-  "main": "src/index.js",
+  "main": "./dist/index.ts",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
   },
   "repository": {
     "type": "git",
@@ -15,12 +19,21 @@
     "Web",
     "Components"
   ],
-  "author": { 
+  "author": {
     "name": "Alan Dale Morford"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alanmorford/morford-org-lit/issues"
   },
-  "homepage": "https://github.com/alanmorford/morford-org-lit#readme"
+  "homepage": "https://github.com/alanmorford/morford-org-lit#readme",
+  "dependencies": {
+    "d3": "^6.3.1",
+    "lit": "^3.1.2"
+  },
+  "devDependencies": {
+    "tslib": "^2.6.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  }
 }
