@@ -1,6 +1,6 @@
 {
   "name": "morford-org-lit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lit Elements to be used on Morford.org Website",
   "main": "./dist/index.ts",
   "module": "./dist/index.mjs",
